@@ -1,4 +1,4 @@
-# notebook
+# dev-notebook
 
 Developer notes
 
@@ -44,5 +44,7 @@ Developer notes
 - `hyperfine`
 - `perf`
 
+> [!note]
+> For optimal reading experience, read them using [Obsidian](https://obsidian.md/).
 
 
