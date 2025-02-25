@@ -13,11 +13,11 @@
 
 ### Time complexity
 
-| **Operation** | **Time complexity** |
-| ------------- | ------------------- |
-| Lookup        | $O(n)$              |
-| Insertion     | $O(\log n)$         |
-| Deletion      | $O(\log n)$         |
+| **Operation** | **Time complexity**    |
+| ------------- | ---------------------- |
+| Lookup        | Worst-case $O(n)$      |
+| Insertion     | Worst-case $O(\log n)$ |
+| Deletion      | Worst-case $O(\log n)$ |
 
 ## Red-black tree
 
@@ -32,11 +32,11 @@
 
 ### Time complexity
 
-| **Operation** | **Time complexity** |
-| ------------- | ------------------- |
-| Lookup        | $O(n)$              |
-| Insertion     | $O(\log n)$         |
-| Deletion      | $O(\log n)$         |
+| **Operation** | **Time complexity**    |
+| ------------- | ---------------------- |
+| Lookup        | Worst-case $O(n)$      |
+| Insertion     | Worst-case $O(\log n)$ |
+| Deletion      | Worst-case $O(\log n)$ |
 ### Lookup
 ### Insertion
 
@@ -54,8 +54,16 @@ Re-colour `z` to black
 ![[Pasted image 20250208105256.png]]
 
 **Case 2: node `y` is black and there’s a triangle with `z`, `z`’s parent, and `z`’s grandparent**
-
+1. Set `z` to be `z`'s parent
+2. Rotate `z`'s parent in the opposite direction of `z` such that `z` takes the place of its parent
+3. Go to case 3
+![[Pasted image 20250223055050.png]]
 **Case 3:  node `y` is black and there’s a line with  `z`, `z`’s parent, and `z`’s grandparent**
+1. Rotate `z`'s grandparent in the opposite direction of `z`
+2. Re-color `z`'s parent and `z`'s old grandparent
+
+
+![[Pasted image 20250223060410.png]]
 
 ### Deletion
 
@@ -102,11 +110,11 @@ However, the root node has no lower bound for the key count or children count, b
 
 ### Time complexity
 
-| **Operation** | **Time complexity** |
-| ------------- | ------------------- |
-| Lookup        | $O(n)$              |
-| Insertion     | $O(\log n)$         |
-| Deletion      | $O(\log n)$         |
+| **Operation** | **Time complexity**    |
+| ------------- | ---------------------- |
+| Lookup        | Worst-case $O(n)$      |
+| Insertion     | Worst-case $O(\log n)$ |
+| Deletion      | Worst-case $O(\log n)$ |
 
 ### Lookup
 

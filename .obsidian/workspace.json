@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e8af3166685060fc",
+        "id": "a3d063f6ecd8c357",
         "type": "tabs",
         "children": [
           {
-            "id": "4bb2a848450fe365",
+            "id": "9c4c5b5eff7bfbf3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "tools/perf.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "perf"
             }
           }
         ]
@@ -159,29 +163,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4bb2a848450fe365",
+  "active": "9c4c5b5eff7bfbf3",
   "lastOpenFiles": [
+    "tools/make.md",
+    "tools/hyperfine.md",
+    "tools/github-actions.md",
+    "tools/git.md",
+    "README.md",
+    "containers-and-algorithms/algorithms/sorting.md",
+    "containers-and-algorithms/containers/sorted-map-and-sorted-set.md",
+    "containers-and-algorithms/containers/priority-queue.md",
+    "containers-and-algorithms/containers/graph.md",
+    "containers-and-algorithms/containers/map-and-set.md",
+    "containers-and-algorithms/containers/images/Pasted image 20250208104340.png",
+    "containers-and-algorithms/containers/images/Pasted image 20250208105256.png",
+    "containers-and-algorithms/containers/images/Pasted image 20250222075606.png",
+    "containers-and-algorithms/containers/images/Pasted image 20250223055050.png",
+    "containers-and-algorithms/containers/images/Pasted image 20250223060410.png",
+    "containers-and-algorithms/containers/images/Pasted image 20250223060314.png",
+    "containers-and-algorithms/containers/images/Pasted image 20250223053423.png",
+    "containers-and-algorithms/containers/images/Pasted image 20250223053336.png",
     "README.md.md",
     "roadmap.md",
-    "containers-and-algorithms/containers/graph.md",
     "containers-and-algorithms/algorithms/tree-and-graph-traversing.md",
     "containers-and-algorithms/algorithms/string-matching.md",
     "containers-and-algorithms/algorithms/searching.md",
-    "containers-and-algorithms/algorithms/sorting.md",
-    "tools/git.md",
-    "containers-and-algorithms/containers/priority-queue.md",
-    "containers-and-algorithms/containers/images/Pasted image 20250222075606.png",
-    "containers-and-algorithms/containers/sorted-map-and-sorted-set.md",
     "operating-systems",
     "(containers-and-algorithms/algorithms/sorting.md",
     "(containers-and-algorithms/algorithms",
     "(containers-and-algorithms",
-    "tools/github-actions.md",
     "tools/perf.md",
-    "tools/make.md",
     "tools/linux-environment.pdf",
-    "tools/hyperfine.md",
-    "containers-and-algorithms/containers/map-and-set.md",
     "containers-and-algorithms/analysis-of-algorithms/asymptotic-analysis.md",
     "containers-and-algorithms/analysis-of-algorithms/amortized-analysis.md",
     "tools/c-language.md",
@@ -189,8 +201,6 @@
     "tools/images/Pasted image 20250221012221.png",
     "tools/images",
     "take.md",
-    "containers-and-algorithms/algorithms/images/Pasted image 20250216155742.png",
-    "containers-and-algorithms/algorithms/images/Pasted image 20250216060209.png",
     "containers-and-algorithms/algorithms/images",
     "tools/rust-language.md",
     "systems-programming/tlpi.pdf",
@@ -198,14 +208,7 @@
     "data-structures-and-algorithms/algorithms/tree-and-graph-traversal.md",
     "data-structures-and-algorithms/algorithms/strongly-connected-components-detection.md",
     "data-structures-and-algorithms/algorithms/stable-matching.md",
-    "data-structures-and-algorithms/algorithms/shortest-path.md",
-    "data-structures-and-algorithms/algorithms/minimum-spanning-tree.md",
     "systems-programming",
-    "containers-and-algorithms/containers/images/Pasted image 20250208105256.png",
-    "containers-and-algorithms/containers/images/Pasted image 20250208104340.png",
-    "containers-and-algorithms/containers/images",
-    "data-structures/images/Pasted image 20250208105256.png",
-    "data-structures/images/Pasted image 20250208104340.png",
-    "data-structures-and-algorithms/data-structures/images/Pasted image 20250208123703.png"
+    "containers-and-algorithms/containers/images"
   ]
 }

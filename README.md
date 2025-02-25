@@ -1,4 +1,4 @@
-# dev-notebook
+# dev-notes
 
 Developer notes
 

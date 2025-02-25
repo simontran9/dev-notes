@@ -3,14 +3,14 @@
 ## Problem
 
 **Description**
-Given an array `array` of elements, sort it in non-decreasing order.
+Given an array of elements $A$, sort it in non-decreasing order.
 
 **Input**
-An array `array` of elements.
+An array of elements, $A$.
 
 **Output**
-- If the sorting is in-place, the original `array` should be modified so that its elements are sorted in non-decreasing order.
-- If the sorting is not in-place, return a new array that is a sorted version of `array`, leaving the original unchanged.
+- If the sorting is in-place, the original array $A$ should be modified so that its elements are sorted in non-decreasing order.
+- If the sorting is not in-place, return a new array $B$ that is a sorted version of $A$, leaving the original unchanged.
 
 ## Bubble sort
 
@@ -46,9 +46,6 @@ func bubble_sort(array: Array[Int]) -> Void {
 ## Selection sort
 
 **Idea**
-1. Find the minimum element in the remaining unsorted part of the list
-2. Swap the found minimum with the current element
-3. Repeat until sorted
 
 **Time complexity**
 Worst-case $O(n^2)$
@@ -107,7 +104,7 @@ func insertion_sort(array: Array[Int]) -> Void {
 **Idea**
 1. Split $A$ into two subarrays $A_L$ and $A_R$ that are roughly half as big
 2. Recursively sort $A_L$ and $A_R$
-3. After $A_L$ and $A_R$ have been sorted, use merge them into a single sorted array
+3. After $A_L$ and $A_R$ have been sorted, merge them into a single sorted array
 ![[Pasted image 20250216155742.png|500]]
 
 **Time complexity**
@@ -120,9 +117,7 @@ Worst-case $O(n \log n)$
 **Pseudocode**
 ```
 func merge_sort(array: Array[Int]) -> Array[Int] {
-    if array.len() <= 1 {
-        return array;
-    }
+    if array.len() <= 1 { return array; }
 
     mid: Int = array.len() / 2;
     // TODO?
@@ -206,7 +201,7 @@ func lomuto_partition(array: Array[Int], low: Int, high: Int) -> Int {
 
 **Idea**
 1. Insert all elements of an input array into a heap priority queue
-2. From the last element to the first element in the input array, set at every iteration into the input array the top element of the heap priority queue
+2. Beginning from the last to the first element in `array`, set the array's element to the top element in the heap priority queue 
 
 **Time complexity**
 Worst-case $O(n \log n)$
